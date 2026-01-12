@@ -41,4 +41,39 @@ body {
     background-color: hsl(0, 0%, 12%);
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: hsl(0, 0%, 15%);
+}
+
+.text {
+    width: 826px;
+    height: 248px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 16px;
+}
+
+.text p {
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+.text button {
+    width: 186px;
+    height: 52px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text button:hover {
+    background-color: hsl(0, 0%, 80%);
 }
