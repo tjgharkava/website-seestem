@@ -68,7 +68,7 @@ body {
     height: 52px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 80px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -76,32 +76,4 @@ body {
 
 .text button:hover {
     background-color: hsl(0, 0%, 80%);
-}
-
-.text-hello {
-    width: 200px;
-    height: 40px;
-    background-color: hsl(0, 0%, 10%);
-    text-align: center;
-    margin: 80px auto;
-}
-
-.text-hello p {
-    font-size: 30px;
-    font-family: monospace;
-    animation:upDown 5s infinite, colorChange 1s infinite;
-}
-
-@keyframes upDown {
-    0% {transform: translateY(0);}
-    50% {transform: translateY(300px);}
-    100% {transform: translateY(0);}
-}
-
-@keyframes colorChange {
-    0% { background-color: hsl(0, 100%, 60%); }
-  25% { background-color: hsl(30, 100%, 50%); }
-  50% { background-color: hsl(80, 100%, 25%); }
-  75% { background-color: hsl(200, 100%, 50%); }
-  100% { background-color: hsl(0, 100%, 50%); }
 }
