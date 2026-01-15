@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
 
 .navbar .nav-links li a {
     color: hsl(0, 0%, 50%);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -40,7 +40,6 @@ body {
     color: white;
     background-color: hsl(0, 0%, 12%);
     font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
 
@@ -58,7 +57,6 @@ body {
 
 .text p {
     font-size: 4em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-weight: 900;
 }
@@ -66,7 +64,6 @@ body {
 .text button {
     width: 186px;
     height: 52px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin-top: 80px;
     border: none;
@@ -76,4 +73,39 @@ body {
 
 .text button:hover {
     background-color: hsl(0, 0%, 80%);
+}
+
+.login-container {
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 50%);
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(0, 0%, 40%);
+    border: none;
+    color: azure;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.login-container button:hover {
+    background-color: #00c6fb;
 }
