@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    flex-wrap: wrap;
 }
 
 .navbar .nav-links {
@@ -126,5 +127,45 @@ body {
 .about-container p {
     font-size: 35px;
     text-align: center;
+    color: white;
+}
+
+.services {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-card {
+    padding: 25px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.services-card:hover {
+    transform: scale(1.05);
+}
+
+.services-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.services-card p {
     color: white;
 }
